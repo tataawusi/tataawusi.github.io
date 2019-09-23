@@ -1,0 +1,109 @@
+/* Start Body */
+body {
+    color: #24292e;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+/* End Body */
+
+/* Start Debug */
+.bg-brown {
+    background-color: gray;
+}
+.bg-red {
+    background-color: brown;
+}
+/* End Debug */
+
+/* Start Container */
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+
+.container-full {
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+}
+/* End Container */
+
+/* Start Logo */
+.logo {
+    text-align: center;
+}
+/* End Logo */
+
+/* Start Anchor / Hperlink */
+a:link,
+a:visited {
+    color: maroon;
+    text-decoration: none;
+}
+a:hover,
+a:active {
+    color:#ffffff;
+    text-decoration: underline;
+}
+/* End Anchor / Hyperlink */
+
+/* Start Menu Primer */
+.menu-primer ul {
+    background-color: #333333;
+    border-radius: 4px;
+    box-shadow: 
+        0 3px 5px -1px rgba(0,0,0,.2),
+        0 6px 10px 0 rgba(0,0,0,.14),
+        0 1px 10px 0 rgba(0,0,0,.12);
+}
+
+.menu-primer li {
+    border-right: 1px solid #d1d5d1;
+    display: inline-block;
+    margin: 0 -4px;
+}
+
+.menu-primer a {
+    color: #ffffff;
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.menu-primer a:hover {
+    background-color: #f7f7f7;
+    color: #000000;
+    text-decoration: nome;
+}
+
+.menu-primer .active {
+    background-color: #ffffff;
+    color: #333333;
+    text-decoration: none;
+}
+/* End Menu Primer */
+
+/* Start Heading */
+h1, h2, h3, h4 {
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+/* End Heading */
